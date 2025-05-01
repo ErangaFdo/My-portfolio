@@ -2,104 +2,140 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="Description" content="Eranga F'do,UI/Ux Designer">
-    <meta name="author" content="Eranga F'do">
-    <meta name="ViewPort" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Description" content="ErangaFdo frontend developer and ui ux engineer">
+    <meta name="author" content="Eranga Fernando">
+
     <title>Eranga F'do</title>
+
+    <link rel="stylesheet" href="Asserts/Lib/fontawesome-free-6.7.2-web/css/all.css">
+    <link rel="stylesheet" href="CssFile/CommonSytle.css">
+    <link rel="stylesheet" href="CssFile/HomeSection.css">
+    <link rel="stylesheet" href="CssFile/HeaderSection.css">
+    <link rel="stylesheet" href="CssFile/AboutSection.css">
+    <link rel="stylesheet" href="CssFile/SkillSection.css">
+    <link rel="stylesheet" href="CssFile/ProjectSection.css">
+    <link rel="stylesheet" href="CssFile/AssignmentSection.css">
+
+
+
 </head>
 <body>
+<!-- nav-bar-->
 <header>
 
-    <!--   <div class="logo">Eranga</div>-->
-    <nav class="navbar">
+    <!-- menu-icon-->
+    <div>
+        <i class="fa-solid fa-bars" id="menu-icon"></i>
 
-        <ul class="nav-links">
-            <li><a href="#"> <i class="fa-solid fa-house" title="Home"></i>   </a></li>
-            <li><a href="#about"> <i class="fa-solid fa-user" title="Profile"></i> </a></li>
-            <li><a href="#"> <i class="fa-solid fa-head-side-virus" title="Skills"></i> </a></li>
-            <li><a href="#"> <i class="fa-solid fa-list-check" title="Project"></i> </a></li>
-            <li><a href="#"><i class="fa-solid fa-address-book" title="Contact"></i> </a></li>
-        </ul>
-
-    </nav>
-</header>
-
-<section class="home">
-    <div class="content">
-        <div class="text">
-            <h2>Hello! I'm</h2>
-            <h1>Eranga Fernando</h1>
-            <h3>I'm a Frontend Developer.</h3>
-            <p>I'm currently focused on expanding my experience in web design and development.
-                I'm studying to be a Software Engineer at the Institute of Software Engineering.</p>
-        </div>
-
-        <nav class="nav-icons">
-            <a href="https://www.linkedin.com/in/eranga-fernando94/" id="linkdin"> <i class="fa-brands fa-linkedin"></i> </a>
-            <a href="https://github.com/ErangaFdo" id="github"> <i class="fa-brands fa-square-github"></i> </a>
-            <a href="https://www.facebook.com/share/1J5KKEhsP9/?mibextid=LQQJ4d" id="fb"> <i class="fa-brands fa-square-facebook"></i> </a>
-
-        </nav>
-
-        <div>
-            <button class="btn"> GET IN TOUCH </button>
+        <!-- links-->
+        <div >
+            <ul>
+                <li> <a href="#"> <i class="fa-solid fa-house" title="Home"></i>  </a></li>
+                <li> <a href="#about"> <i class="fa-solid fa-user" title="About"></i> </a></li>
+                <li> <a href="#skills"> <i class="fa-solid fa-head-side-virus" title="Skills"></i> </a></li>
+                <li> <a href="#projects">  <i class="fa-solid fa-list-check" title="Project"></i> </a></li>
+                <li> <a href="#contacts">   <i class="fa-solid fa-address-book" title="Contact"></i> </a></li>
+            </ul>
         </div>
     </div>
 
-    <div class="profile">
-        <img src="Asserts/Images/image01.png" alt="Eranga F'do" id="image" width="700px">
+
+
+</header>
+
+<!--HOME SECTION-->
+
+<section>
+    <div>
+
+        <h2>Hello! I'm</h2>
+        <h1>Eranga Fernando</h1>
+        <h3>I'm a Frontend Developer.</h3>
+        <p>I'm currently focused on expanding my experience in web design and
+            development. I'm studying to be a Software Engineer at the Institute of
+            Software Engineering.</p>
+
+        <nav>
+            <div>
+                <a href="https://www.linkedin.com/in/eranga-fernando94/" id="linkdin"> <i class="fa-brands fa-linkedin"></i> </a>
+                <a href="https://github.com/ErangaFdo" id="github"> <i class="fa-brands fa-square-github"></i> </a>
+                <a href="https://www.facebook.com/share/1J5KKEhsP9/?mibextid=LQQJ4d" id="fb"> <i class="fa-brands fa-square-facebook"></i> </a>
+            </div>
+
+            <div>
+                <button> GET IN TOUCH </button>
+            </div>
+        </nav>
+
+    </div>
+
+
+    <div>
+        <img src="assets/Images/home-photo.png" alt="">
     </div>
 </section>
 
 
+<!--ABOUT SECTION-->
+<section>
+    <div>
+        <h1>   | </h1>
+        <h2>   Who I Am </h2>
+    </div>
 
-<!--           About Section-->
-<section class="aboutsection" id="about">
+    <div>
 
-    <div class="about-content">
-        <h2 class="about-me">  <span id="span-abt"> |  </span> Who I Am </h2>
-
-
-
-        <!--        liftside-->
-
-        <div class="image3">
-            <img src="Asserts/Images/image03.jpeg" class="about-img" width="250px">
+        <div>
+            <img src="assets/Images/image03.jpeg"  >
         </div>
 
-        <!--           rightside-->
-
-        <div class="about-dis">
-            <p id="dis1"> I’m an undergraduate at the Institute of Java & Software Engineering
+        <div>
+            <p > I’m an undergraduate at the Institute of Java & Software Engineering
                 (IJSE) with a passion for full-stack development and UI/UX design.
                 Skilled in Java and JavaScript, I create robust APIs and engaging,
                 user-friendly interfaces.
             </p>
 
-            <p id="dis2">
+            <p >
                 As a quick learner and creative thinker, I draw inspiration from diverse
                 fields to craft efficient, innovative solutions. My goal is to deliver
                 seamless digital experiences that exceed user expectations. Let’s
                 create something extraordinary!
             </p>
         </div>
+
+
+
     </div>
 
-    <button class="btn01"> Download CV </button>
+    <div >
+        <button> Download CV </button>
+    </div>
 
 </section>
 
+<!--SKILLS AND SERVICES-->
+<section>
 
 
-<section class="services">
-    <h2>  <span id="span-ser"> |  </span> What I Do </h2>
-    <div class="services-container">
+    <div>
+        <h1>   | </h1>
+        <h2>   What I Do </h2>
+    </div>
 
 
-        <div class="service-box">
+    <div>
+        <div>
+            <video src="assets/Images/skills.mp4" autoplay  muted loop width="500px" ></video>
+        </div>
+
+        <div>
+
             <div>
+
                 <!--            <img src="Asserts/Icon/web-design.png" alt="web-design">-->
-                <img src="Asserts/Icon/web-development.png" alt="web-development">
+                <img src="assets/Icon/web-development.png" alt="web-development">
                 <h3>Web Development </h3>
                 <p>
                     I specialize in crafting
@@ -107,13 +143,13 @@
                     reliable solutions for
                     every client
                 </p>
+
             </div>
-        </div>
 
 
-        <div class="service-box">
             <div>
-                <img src="Asserts/Icon/paint.png" alt="paint">
+
+                <img src="assets/Icon/paint.png" alt="paint">
                 <h3>UI/UX Design</h3>
                 <p>
                     I enjoy creating wireframes
@@ -122,206 +158,129 @@
                     minimalism enthusiasts
                 </p>
             </div>
-        </div>
 
 
-        <div class="service-box">
-            <div>
-                <img src="Asserts/Icon/phone.png" alt="phone">
+            <div >
+
+                <img src="assets/Icon/phone.png" alt="phone">
                 <h3>Mobile Application</h3>
                 <p>
                     I love creating apps that change the way people interact
                     with their smartphones
                 </p>
+
             </div>
-        </div>
-    </div>
-</section>
 
-
-<section class="project">
-    <h2>  <span id="span-pro"> |  </span> What I Do </h2>
-    <div class="project-container">
-        <div class="project-box">
-            <div>
-                <!--            <img src="Asserts/Icon/web-design.png" alt="web-design">-->
-                <img src="Asserts/Images/management.PNG" >
-                <h3>New Comer Management System </h3>
-                <p>
-                    I specialize in crafting
-                    tailored, portable, and
-                    reliable solutions for
-                    every client
-                </p>
-            </div>
-        </div>
-
-
-        <div class="project-box">
-            <div>
-                <img src="Asserts/Images/tic-tac-toe.PNG" >
-                <h3> Tic Tac Toe Game App</h3>
-                <p>
-                    I enjoy creating wireframes
-                    and clean UIs to enhance
-                    the web experience for
-                    minimalism enthusiasts
-                </p>
-            </div>
-        </div>
-
-
-        <div class="project-box">
-            <div>
-                <img src="Asserts/Images/bank.PNG" >
-                <h3> Bank System</h3>
-                <p>
-                    I love creating apps that change the way people interact
-                    with their smartphones
-                </p>
-            </div>
-        </div>
-    </div>
-</section>
-
-
-
-
-
-
-
-
-<!--                Skills & Technologies-->
-
-<section class="sec-skills">
-
-    <div class="div-skills">
-        <h2 class="skills"> Skills & Technologies </h2>
-    </div>
-
-    <h3> Tools and technologies I’ve utilized and experimented with </h3>
-
-
-
-    <div class="skills-card">
-
-        <!--             card1-->
-
-        <div class="java">
-            <h4> JAVA </h4>
-            <img src="Asserts/Icon/java.png"  width="40px">
-        </div>
-
-
-        <!--             card2-->
-
-        <div class="mysql">
-            <h4> MYSQL </h4>
-            <img src="Asserts/Icon/mysql.png"  width="40px">
-        </div>
-
-        <!--                     card3-->
-
-        <div class="html">
-            <h4> HTML </h4>
-            <img src="Asserts/Icon/html.png">
-        </div>
-
-        <!--                     card4-->
-
-        <div class="css">
-            <h4> CSS </h4>
-            <img src="Asserts/Icon/css.png" width="42px">
-        </div>
-
-        <!--                     card5-->
-
-        <div class="javascript">
-            <h4> Javascript </h4>
-            <img src="Asserts/Icon/js.png" width="38px">
-        </div>
-
-        <!--                     card6-->
-
-        <div class="mongodb">
-            <h4> MongoDB </h4>
-            <img src="Asserts/Icon/mongodb.png" width="38px">
-        </div>
-
-        <!--                     card7-->
-
-        <div class="spring">
-            <h4> Spring </h4>
-            <img src="Asserts/Icon/springboot.png" width="40px">
-        </div>
-
-        <!--                     card8-->
-
-        <div class="node">
-            <h4> Node </h4>
-            <img src="Asserts/Icon/node-js.png" width="40px">
-        </div>
-
-        <!--                     card9-->
-
-        <div class="python">
-            <h4> Python </h4>
-            <img src="Asserts/Icon/python.png" width="40px">
-        </div>
-
-        <!--                     card10-->
-
-        <div class="npm">
-            <h4> NPM </h4>
-            <img src="Asserts/Icon/npm.png"  width="40px">
-        </div>
-
-        <!--                     card11-->
-
-        <div class="react">
-            <h4> React </h4>
-            <img src="Asserts/Icon/react-native.png" width="38px">
-        </div>
-
-        <!--                     card12-->
-
-        <div class="ex">
-            <h4> ex Express </h4>
-            <img src="Asserts/Icon/express-js.png" width="38px">
-        </div>
-
-        <!--                     card13-->
-
-        <div class="intel">
-            <h4> Intellij </h4>
-            <img src="Asserts/Icon/intellij-idea.png"   width="38px">
-        </div>
-
-        <!--                     card14-->
-
-        <div class="vscode">
-            <h4> Vs Code </h4>
-            <img src="Asserts/Icon/vscode.png"  width="38px">
-        </div>
-
-        <!--                     card15-->
-
-        <div class="git">
-            <h4> Git </h4>
-            <img src="Asserts/Icon/git.png"  width="40px">
-        </div>
-
-        <!--                     card16-->
-
-        <div class="github">
-            <h4> GitHub </h4>
-            <img src="Asserts/Icon/github.png"  width="40px">
         </div>
 
     </div>
 
 </section>
+
+<!--PROJECT-->
+<section>
+
+    <div>
+        <h1>   | </h1>
+        <h2>   Development Journey </h2>
+    </div>
+
+    <div>
+
+        <div>
+            <img src="assets/Images/management.PNG">
+            <h3> New Comer Management System </h3>
+            <a href="https://github.com/ErangaFdo" > <i class="fa-brands fa-square-github"></i> </a>
+        </div>
+
+        <div>
+            <img src="assets/Images/tic-tac-toe.PNG">
+            <h3> Tic Tac Toe Game App </h3>
+            <a href="https://github.com/ErangaFdo" > <i class="fa-brands fa-square-github"></i> </a>
+        </div>
+
+        <div>
+            <img src="assets/Images/bank.PNG">
+            <h3> Banking System </h3>
+            <a href="https://github.com/ErangaFdo" > <i class="fa-brands fa-square-github"></i> </a>
+        </div>
+
+        <div>
+            <img src="assets/Images/space%201.png">
+            <h3> Space For Project </h3>
+            <a href="https://github.com/ErangaFdo" > <i class="fa-brands fa-square-github"></i> </a>
+        </div>
+
+        <div>
+            <img src="assets/Images/space%201.png">
+            <h3> Space For Project </h3>
+            <a href="https://github.com/ErangaFdo" > <i class="fa-brands fa-square-github"></i> </a>
+        </div>
+
+        <div>
+            <img src="assets/Images/space%201.png">
+            <h3> Space For Project </h3>
+            <a href="https://github.com/ErangaFdo" > <i class="fa-brands fa-square-github"></i> </a>
+        </div>
+
+    </div>
+
+</section>
+
+<!--ASSIGNMENT-->
+
+<section>
+
+    <div>
+        <h1>   | </h1>
+        <h2>   My Assignment </h2>
+    </div>
+
+    <div>
+
+        <div>
+            <img src="assets/Images/management.PNG">
+            <h3> Css Style </h3>
+            <a href="https://github.com/ErangaFdo" > <i class="fa-brands fa-square-github"></i> </a>
+        </div>
+
+        <div>
+            <img src="assets/Images/tic-tac-toe.PNG">
+            <h3> Animation Image Slider </h3>
+            <a href="https://github.com/ErangaFdo" > <i class="fa-brands fa-square-github"></i> </a>
+        </div>
+
+        <div>
+            <img src="assets/Images/bank.PNG">
+            <h3> Animation Car </h3>
+            <a href="https://github.com/ErangaFdo" > <i class="fa-brands fa-square-github"></i> </a>
+        </div>
+
+        <div>
+            <img src="assets/Images/space%201.png">
+            <h3> Transition Style </h3>
+            <a href="https://github.com/ErangaFdo" > <i class="fa-brands fa-square-github"></i> </a>
+        </div>
+
+        <div>
+            <img src="assets/Images/space%201.png">
+            <h3> Knight Rider Animation </h3>
+            <a href="https://github.com/ErangaFdo" > <i class="fa-brands fa-square-github"></i> </a>
+        </div>
+
+        <div>
+            <img src="assets/Images/space%201.png">
+            <h3> JQuery Animation </h3>
+            <a href="https://github.com/ErangaFdo" > <i class="fa-brands fa-square-github"></i> </a>
+        </div>
+
+    </div>
+
+</section>
+
+
+
+
 
 </body>
 </html>
-
